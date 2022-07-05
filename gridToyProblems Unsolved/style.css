@@ -1,0 +1,17 @@
+body{
+    overflow-x: hidden;
+    /* What could you use to center the content in the body easily? */
+    
+}
+
+img {
+    height: 270px;
+    width: 370px;
+}
+
+.grid-cont {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
