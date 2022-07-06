@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medium Challenge</title>
+</head>
+<body>
+    
+    <h1>Medium Challenge</h1>
+
+    <script>
+        // MEDIUM: Write a program to tell if someone is shouting (typing in all caps), whispering (typing in all lowercase), or neither. 
+        // Use prompt to get user input, and then console log whether the user was shouting, whispering, or talking normally.
+        var person = prompt("Speak now");
+
+        if (person === person.toUpperCase()) {
+            console.log("Stop yelling!");
+        } else if(person === person.toLowerCase()) {
+            console.log("you're whispering");
+        } else{
+            console.log("You're talking normal");
+        }        
+    </script>
+
+</body>
+</html>
