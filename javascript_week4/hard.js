@@ -12,18 +12,16 @@ var tom = [9, 8]
 var tomHeight = tom[0]
 var tomMass = tom[1]
 
-//var tomBMI = (((tomMass / tomHeight) ** 2) = (tomMass)/ (tomHeight * tomHeight))
+var tomBMI = tomMass / (tomHeight) ** 2
 
-function findBMI (n1, n2) {
-    
-}
+
 
 var jerry = [10, 45]
 
 var jerryHeight = jerry[0]
 var jerryMass = jerry[1]
 
-//var jerryBMI = (((jerryMass / jerryHeight) ** 2) = (jerryMass) / (jerryHeight * jerryHeight))
+var jerryBMI = jerryMass / (jerryHeight) ** 2
 
 var isTrue = true;
 
