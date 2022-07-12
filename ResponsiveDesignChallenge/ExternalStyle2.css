@@ -34,7 +34,20 @@ Form {
 	background-color: green}
 
 
+	nav {
+		font-size: 25pt;
+		text-align: center;
+		font-family: cambria
+	}
+
+	
 @media screen and (max-width: 1500px) {
+	nav {
+		font-size: 25pt;
+		text-align: center;
+		font-family: cambria
+	}
+
 	H1 {
 		text-align: center;
 	}
@@ -48,6 +61,12 @@ Form {
 }
 
 @media screen and (max-width: 1000px) {
+	nav {
+		font-size: 25pt;
+		text-align: center;
+		font-family: cambria
+	}
+
 	H1 {
 		text-align: center;
 	}
@@ -61,6 +80,16 @@ Form {
 }	
 
 @media screen and (max-width: 700px) {
+	nav {
+		font-size: 25pt;
+		text-align: center;
+		font-family: cambria
+	}
+
+	nav:hover {
+		color: pink;
+	}
+
 	H1 {
 		text-align: center;
 		font-size: 60px;
@@ -73,4 +102,6 @@ Form {
 	H5 {
 		text-align: center;
 	}
+
+
 }
